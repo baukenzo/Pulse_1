@@ -9,6 +9,14 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    transition: 0.5s all;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 3px 3px 20px blue;
+        background-color: rgba($color: #0e0808, $alpha: 1.0);
+        border: none;
+        color: green;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;
@@ -19,5 +27,10 @@
         width: 100%;
         height: 55px;
         font-size: 16px;
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
     }
 }

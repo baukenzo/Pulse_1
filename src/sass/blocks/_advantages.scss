@@ -30,4 +30,19 @@
                 text-decoration: underline;
             }
         }
+    &__icon {
+        &__animated {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+        &__animation {
+            animation: shoes 2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
+}
+
